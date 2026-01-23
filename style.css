@@ -1,0 +1,83 @@
+body {
+    background-color: #279485;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    background-color: #75dfc3;
+    width: 100%;
+    max-width: 450px;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: -1px 4px 15px 5px rgba(0,0,0,0.63)
+;
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: #001b18;
+}
+
+.input-section {
+    display: flex;
+    gap: 15px;
+}
+
+#input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    color: #001b18;
+    height: 30px;
+}
+
+#add {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #006154;
+    color: white;
+    border-radius: 6px;
+}
+
+ul {
+    list-style: none;
+    margin-top: 20px;
+    padding-left: 0;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    background-color: #dcfff6;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: large;
+    height: 35px;
+    
+}
+
+.todo-text {
+    flex: 1;
+    margin-left: 10px;
+    }
+
+.completed .todo-text {
+    text-decoration: line-through;
+    color: rgb(100, 100, 100);
+}
+
+.delete-btn {
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+
+}
