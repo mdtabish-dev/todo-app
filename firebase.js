@@ -1,4 +1,4 @@
-// Firebase configuration
+
 const firebaseConfig = {
     apiKey: "AIzaSyCABbtqMIj24faW1KxJ8M15NhKGIGBod84",
     authDomain: "todoapp-26fef.firebaseapp.com",
@@ -9,8 +9,6 @@ const firebaseConfig = {
     appId: "1:184621322721:web:195a8556b87092863242a0"
 };
 
-// Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
-// Reference to 'todos' path in Realtime Database
 var todosRef = firebase.database().ref("todos");

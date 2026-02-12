@@ -86,6 +86,8 @@ function toggleTodo(id) {
         todoRef.update({ done: !current.done });
     }
 
+    
+
     todoRef.once("value", handleSnapshot);
 }
 
